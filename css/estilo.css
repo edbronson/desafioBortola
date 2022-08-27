@@ -1,0 +1,119 @@
+body{font: 100%/1.5 sans-serif;font-family: times;}
+#container{margin:auto;max-width: 970px;width: 100%;border:5px solid #ccc;box-shadow: 2px 2px 20px #000;}
+header{min-height: 100px;}
+main{width: 100%;min-height: 400px;padding: 10px;}
+figure{position: relative;height: 259px;border-bottom: 10px solid #ccc;clear: both;}
+
+figure figcaption{
+	font-family: "IndieFlower";
+	background: rgba(0,0,0, 0.6);
+	color: #fff;
+	font-size: 45px;
+	display: inline;
+	position: absolute;
+	bottom: 41px;
+	width: 465px;
+	text-align: left;
+	right: 10px;
+	border-radius: 20px 0px 20px 0;
+	line-height: 1em;
+	padding: 16px 0 16px 12px;
+	font-family: "IndieFlower";
+}
+.menuzoca ul li{
+	width: 160px;
+	display: block;
+	float: left;
+	background-color: #999;
+	text-align: center;
+	color:#fff;
+	line-height: 3.0em;
+	border-bottom: 4px solid #000;
+	font-family: "UbuntuCondensed-Regular";
+}
+
+.menuzoca ul li a{
+	color:inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	transition: all 1s ease-in-out;
+	
+}
+
+.menuzoca ul li a:hover{
+	color:#fff;
+	font-size: 16px;
+	background-color: #000;
+}
+
+p{
+	text-align: justify;
+	font-family: "Roboto-Regular";
+}
+
+h1{
+	font-size: 25px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #CCC;
+	font-family: "Roboto-BoldItalic";
+}
+article{
+	/* tamanho article = (750/970)*100 */
+	width: 74.319588%;
+	min-height: 400px;
+	float: left;
+}
+
+aside{
+	width: 23.680412%;
+	min-height:100px;
+	float: right;
+	font-family: "Roboto-ThinItalic";
+}
+
+.estiloBox{
+	padding: 30px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #CCCCCC 100%);	
+}
+
+
+aside nav ul li a{
+	display: block;
+	text-decoration: none;
+	border:1px solid #ccc;
+	padding: 10px;
+	color:#333;
+}
+
+aside nav ul li:nth-child(2n) {
+	background-color: #999;
+}
+
+aside nav ul li:nth-child(2n+1) {
+	background-color: #fff;
+}
+
+aside nav ul li a:hover{
+	background-color: #666;
+	color: #fff;
+}
+
+footer{
+	min-height: 50px;
+	background-color: #ccc;
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Roboto-LightItalic";
+}
+
+img, iframe{
+	max-width: 100%;
+}
+
+article p{
+	margin-bottom: 20px;
+}
+

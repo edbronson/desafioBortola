@@ -1,0 +1,138 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.menuzoca ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.menuzoca ul li{
+		background-color: #B7D3B0;
+		color: green;
+		width: 33.33%;
+        border-bottom: 4px solid #000;
+	}
+
+    figure {
+        height: auto;
+        border-bottom: 0;
+        background: green;
+    }
+
+	figure figcaption{
+		font-family: "IndieFlower";
+        font-size: 2rem;
+		background: rgba(183, 234, 176, 0.6);
+		color: green;
+		width: 310px;
+        bottom: 22px;
+	}
+
+	#container {
+		border:5px solid green;
+	}
+
+	.estiloBox{
+		border:1px solid green;
+		background-image: linear-gradient(to bottom, #FFFFFF 0%, #B7D3B0 100%);	
+	}
+
+	aside nav ul li a{
+		border:1px solid green;
+	}
+
+	aside nav ul li:nth-child(2n) {
+		background-color: #B7D3B0;
+	}
+
+	article{
+		float: right;
+	}
+	
+	aside{
+		float: left;
+	}
+
+	h1 {
+		text-align: center;
+		border-bottom: 1px solid green;
+	}
+
+	p {
+		color: green;
+	}
+
+	aside img {
+		display: none;
+	}
+
+	footer{
+		padding-left: 169px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    .menuzoca ul li{
+		width: 100%;
+        background-color: #000;
+        border-bottom: 4px solid #333;
+	}
+
+    figure {
+        height: auto;
+        border-bottom: 0;
+        background: #ccc;
+    }
+
+	figure figcaption{
+        font-size: 1.1rem;
+		color: #FFFFFF;
+		width: 92%;
+        bottom: 22px;
+        height: 48px;
+        padding: 12px 20px;
+        text-align: center;
+	}
+
+    article {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #0000ff;
+        font-family: "UbuntuCondensed-Regular";
+    }
+
+    .estiloBox{
+		background-image: linear-gradient(to bottom, #FFFFFF 0%, #94b7d4 100%);	
+	}
+
+    aside {
+        width: 100%;
+    }
+
+    aside img {
+		display: none;
+	}
+
+    footer{
+		display: none;
+	}
+
+}
+
+
+
+
+/*
+ _____   _   _____       ___   _____        _____   _____   _____    _____   _____   _           ___  
+|  _  \ | | /  ___|     /   | /  ___/      |  _  \ /  _  \ |  _  \  |_   _| /  _  \ | |         /   | 
+| | | | | | | |        / /| | | |___       | |_| | | | | | | |_| |    | |   | | | | | |        / /| | 
+| | | | | | | |       / / | | \___  \      |  _  { | | | | |  _  /    | |   | | | | | |       / / | | 
+| |_| | | | | |___   / /  | |  ___| |      | |_| | | |_| | | | \ \    | |   | |_| | | |___   / /  | | 
+|_____/ |_| \_____| /_/   |_| /_____/      |_____/ \_____/ |_|  \_\   |_|   \_____/ |_____| /_/   |_| 
+
+
+Para validar o resultado, utilizar o browser Firefox, 
+pressionando as teclas "ctrl + shift + M"
+*/
